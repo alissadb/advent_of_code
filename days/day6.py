@@ -57,7 +57,7 @@ def find_first_marker(text: str, n_distinct: int) -> int:
 def main():
 
     # Read data
-    puzzle_input = read_data("data/input6.txt")
+    puzzle_input = read_data("days/data/input6.txt")
 
     # Solutions
     first_4_distinct = find_first_marker(puzzle_input, 4)

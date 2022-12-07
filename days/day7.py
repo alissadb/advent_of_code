@@ -176,7 +176,7 @@ def smallest_size_directory_to_delete(
 
 def main():
     """Solve part 1 and part 2."""
-    puzzle_input = read_split_data("data/input7.txt")
+    puzzle_input = read_split_data("days/data/input7.txt")
     directories = get_directories(puzzle_input)
 
     part_1 = total_sum_directories_smaller_than(directories)

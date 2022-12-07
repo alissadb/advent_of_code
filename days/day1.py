@@ -18,7 +18,7 @@ def read_data(file_name: str) -> list[list]:
 
 def main():
     """Calculate the total calories of the Elf and Elves."""
-    elves = read_data("data/input.txt")
+    elves = read_data("days/data/input.txt")
 
     calories_per_elf = [
         sum([int(calorie) for calorie in elf.split("\n")])

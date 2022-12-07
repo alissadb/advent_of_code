@@ -110,7 +110,7 @@ def read_data(file_name: str) -> list[list]:
 def main():
     """Calculate the total score for part 1 and part 2."""
     # Read data
-    puzzle_input = read_data("data/input2.txt")
+    puzzle_input = read_data("days/data/input2.txt")
 
     # Extract opponent and
     player_1, player_2 = map(list, zip(*[row.split(" ") for row in puzzle_input]))
